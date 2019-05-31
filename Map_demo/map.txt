@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Map</title>
+
+    <style >
+        * {margin: 0px;padding: 0px;}
+        html, body {height: 100%;}
+        </style>
+
+    <script  src="http://code.jquery.com/jquery-latest.min.js"></script>
+
+    <!-- 네이버 프랫폼활용 요청 -->
+    <script type="text/javascript" src="https://openapi.map.naver.com/openapi/v3/maps.js?ncpClientId=wwxzh0v7gz"></script>
+
+</head>
+<body>
+    <!-- 지도 DOM 요소 지정하기-->
+    <div id="map" style="width:100%;height:930px;"></div>
+<script>
+
+
+// 지도 옵션 설정하기 (변수로 지도옶션 설정)
+var mapOptions = {
+    center: new naver.maps.LatLng(37.3595704, 127.105399),
+    zoom: 10
+};
+
+// 지도 생성하기
+var map = new naver.maps.Map('map', mapOptions);
+</script>
+</body>
+</html>
