@@ -4,7 +4,7 @@ DKU univ 2019 hackathon 5/31일~6/1일까지 진행한 웹페이지 푸존을 �
 # Map Page
 | 1 | 2 | 3 |
 |:--:|:--:|:--:|
-|![mappage2.png](./image/mappage2.png)|![mappage.png](./image/mappage.png)|![contentpage.png](./image/contentpage.png)|
+|![mappage2.png](./img/1.png)|![mappage.png](./img/2.png)|![contentpage.png](./img/3.png)|
 
 # Reference
 - 네이버 map API : <https://navermaps.github.io/maps.js/docs/index.html>
